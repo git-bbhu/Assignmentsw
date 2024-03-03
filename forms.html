@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="message.html">                                 
+    
+    <fieldset>
+        <legend>personal details </legend>
+        <label for="fname">first name</label>
+        <input type="text"  id="fname" required><br >
+
+        <label for="lname">last name</label>
+        <input type="text"  id="lname" required><br>
+
+        <label for="dob">DOb</label>
+        <input type="date"  id="dob" required><br>
+        
+        <label for="email">Email</label>
+        <input type="text"  id="email" required>
+
+        
+
+
+
+    </fieldset><br>
+
+
+    <fieldset>
+    <legend>Education details </legend>
+
+    <label for="">Department</label><br><br>
+    <input type="radio" id=" cs" name="Department" required>
+    <label for="cs">cs</label>
+
+
+    <input type="radio" id=" ec"name="Department" required>
+    <label for="ec">Ec</label>
+
+    <input type="radio" id="civil" name="Department" required>
+    <label for="civil">Civil</label>
+
+    <input type="radio" id=" mech" name="Department" required>
+    <label for="mech">Mech</label><br><br>
+
+    <label for="">Year of graduation</label>
+     <input list="yog">
+     <datalist id="yog">
+        <option >2019</option>
+        <option >2020</option>
+        <option >2021</option>
+        <option >2022</option>
+        <option >2023</option>
+        
+
+     </datalist>
+     <br><br> 
+
+     <label for="">Skills</label><br>
+
+     <input type="checkbox" id="java">
+     <label for="java">Java</label><br>
+
+     <input type="checkbox" id="sql">
+     <label for="sql">SQL</label><br>
+    
+     <input type="checkbox" id="html">
+     <label for="html">HTML</label><br>
+
+     <input type="checkbox" id=" css">
+     <label for="css">CSS</label>
+
+
+
+</fieldset>
+
+<input type="submit">
+</form>
+    
+</body>
+</html>
